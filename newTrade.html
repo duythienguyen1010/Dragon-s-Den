@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta name="description" content="ITIS 5166 Milestone 1 newTrade" />
+    <meta name="author" content="Hoang Nguyen" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" id="logo-link"
+        ><img id="logo" src="images/logo.jpg" alt="logo"
+      /></a>
+      <div id="title">
+        <h1>Dragon's Den</h1>
+        <p>Gaming trades</p>
+      </div>
+      <div id="header-nav">
+        <ul>
+          <li>
+            <p><a href="newTrade.html">List Product</a></p>
+            <img src="images/listing logo.png" alt="listing logo" />
+          </li>
+          <li>
+            <p><a href="">Cart</a></p>
+            <img src="images/cart logo.png" alt="cart logo" />
+          </li>
+          <li>
+            <p><a href="">Login</a></p>
+            <img src="images/login logo.png" alt="login logo" />
+          </li>
+          <li>
+            <p><a href="">Create Account</a></p>
+            <img src="images/create account logo.png" alt="account logo" />
+          </li>
+        </ul>
+      </div>
+      <div class="gen-nav">
+        <a href="trades.html">Explore products ></a>
+      </div>
+    </header>
+
+    <main>
+      <div class="form-wrapper">
+        <form>
+          <h1>User information</h1>
+          <div>
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" name="firstName" required />
+          </div>
+          <div>
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName" name="lastName" required />
+          </div>
+          <div>
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" name="phone" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <h1>Trade information</h1>
+          <div>
+            <label for="category">Category</label>
+            <select id="category>" name="category">
+              <option value="Console">Console</option>
+              <option value="PC">PC</option>
+            </select>
+          </div>
+          <div>
+            <label for="itemName">Item name</label>
+            <input type="text" id="itemName" name="itemName" required />
+          </div>
+          <div>
+            <label for="description">Description</label>
+            <textarea
+              id="description"
+              name="description"
+              rows="5"
+              cols="25"
+            ></textarea>
+          </div>
+          <div>
+            <label for="pictures">Upload images</label>
+            <input type="button" id="upload" name="upload" value="upload" />
+          </div>
+          <div id="submit-btn">
+            <input type="submit" value="Create Trade" />
+            <input type="reset" />
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div id="word-content-footer">
+        <p>Copyright © Nguyen 2022<br />hnguye91@uncc.edu</p>
+      </div>
+      <div id="image-content-footer">
+        <img src="images/discord-logo.png" alt="discord logo" />
+        <img src="images/instg-logo.png" alt="instgram logo" />
+      </div>
+    </footer>
+  </body>
+</html>
